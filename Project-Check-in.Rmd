@@ -1,0 +1,40 @@
+---
+title: "Project Check In"
+author: "Randy Li, Zhixuan Huang"
+date: "2024-02-09"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA)
+```
+
+## Dataset
+
+The dataset is main about the performance of CPU and GPU. We can detect the CPU and GPU performance in different aspects, such as size, release date, released company, and so on, which are the columns of the dataset. There are 649 lines in total. 
+
+```{r}
+
+```
+
+## Three questions
+1, When there are NAN data, do we still need to consider them. 
+
+2, Do we need to combine all CPU and GPU together to detect their performance or separate them first and then detect.
+
+3, For some columns, it refers to some physics knowledge which I don't know, for example, die size. Do we need to remove such columns. 
+
+## Draft of Visualization
+
+Present your visualizations.
+
+```{r}
+
+```
+
+
+
+## R Appendix
+
+```{r, ref.label=knitr::all_labels(), eval = F, echo = T}
+```
